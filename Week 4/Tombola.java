@@ -4,9 +4,12 @@ public class Tombola {
         int b = 5;
         int c = 5;
 
+        System.out.println(calculateTombolaPrize(3,3,3));
         System.out.println(calculateTombolaPrize(a,b,c));
-
+        System.out.println(calculateTombolaPrize(1,2,3));
+        System.out.println(calculateTombolaPrize(1,2,1));
     } 
+
     public static int calculateTombolaPrize(int draw1, int draw2, int draw3){
             if(draw1 == 3 && draw2 == 3 && draw3 == 3){
                 return 10;
