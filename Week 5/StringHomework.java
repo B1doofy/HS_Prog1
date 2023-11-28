@@ -12,7 +12,7 @@ public class StringHomework {
         System.out.println(isPalindrome("Hung"));
         System.out.print("<Empty String> \"\": ");
         System.out.println(isPalindrome(""));
-        //System.out.println(isPalindrome()); 
+        System.out.println(isPalindrome(null)); 
         //null klappt nicht, Methode fordert ein String
         //leerer String und ein Char Strings sind Palindrome
 
@@ -20,7 +20,7 @@ public class StringHomework {
         System.out.print("betrug und geburt ");
         System.out.println(checkForAnagram("betrug", "geburt")); 
         System.out.print("tom marvolo riddle und  i am lord voldemort " );
-        System.out.println(checkForAnagram("tom marvolo riddle", "i am lord voldemort"));
+        System.out.println(checkForAnagram("tom marvolo riddle", "i am xxxx voldemort"));
         System.out.print("Hung und Ly ");
         System.out.println(checkForAnagram("Hung", "Ly"));
         System.out.print("\"\" und \"\" ");
@@ -29,6 +29,14 @@ public class StringHomework {
 
     public static boolean isPalindrome(String s){
         //nicht case sensitive
+        if(s == null){
+            System.out.println("null ist auch ein Palindrome.");
+            return false;
+        }
+        //Empty string ist kein Palindrome
+        if(s== ""){
+            return false;
+        }
         String cleanString = s.toLowerCase();
         int length = cleanString.length();
         //Schleife , length / 2(div 2), bei ungerade ist der mittlerste Char irrelevant, 
@@ -37,8 +45,7 @@ public class StringHomework {
                 return false;
             }
         }
-        return true;
-        
+        return true;  
     }
 
     public static boolean checkForAnagram(String s1, String s2){
