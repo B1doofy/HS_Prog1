@@ -16,7 +16,5 @@ public class NestParent {
             return checkNestParent(newS);
         }
         return false;
-
-    }
-    
+    } 
 }
