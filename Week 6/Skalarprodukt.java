@@ -18,3 +18,4 @@ public class Skalarprodukt {
     return result;
     }  
 }
+//by Viet Hung Ly

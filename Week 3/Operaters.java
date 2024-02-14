@@ -11,3 +11,4 @@ public class Operaters {
         System.out.println(x = y = y +1); // Code geht vom links nach recht aber deklaration geht von rechts nach links x=3
     } 
 }
+//by Viet Hung Ly

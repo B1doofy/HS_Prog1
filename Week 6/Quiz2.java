@@ -18,3 +18,4 @@ public class Quiz2 {
         return arr;
     }
 }
+//by Viet Hung Ly

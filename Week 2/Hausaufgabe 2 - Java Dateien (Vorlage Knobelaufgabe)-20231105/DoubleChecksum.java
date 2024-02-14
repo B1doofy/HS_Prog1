@@ -28,3 +28,4 @@ public class DoubleChecksum {
         System.out.println("Die Zweier-Quersumme von Zahl "+number+ " ist "+result+".");
     }
 }
+//by Viet Hung Ly

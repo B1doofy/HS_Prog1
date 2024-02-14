@@ -17,3 +17,4 @@ public class Faculty {
         System.out.println(result);
     }
 }
+//by Viet Hung Ly

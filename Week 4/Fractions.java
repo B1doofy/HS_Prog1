@@ -43,3 +43,4 @@ public class Fractions {
         printReduced(neuZähler, neuNenner);
     }
 }
+//by Viet Hung Ly

@@ -22,3 +22,4 @@ public class QuizLuckySum {
     }
 
 }
+//by Viet Hung Ly

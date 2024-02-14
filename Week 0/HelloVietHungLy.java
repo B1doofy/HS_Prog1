@@ -1,3 +1,4 @@
+//by Viet Hung Ly
 public class HelloVietHungLy {
 	public static void main(String[] args) {
 		// gebe Name aus

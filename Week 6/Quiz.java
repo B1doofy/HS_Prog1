@@ -19,3 +19,4 @@ public class Quiz {
         return sum;
     }   
 }
+//by Viet Hung Ly

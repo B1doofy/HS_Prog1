@@ -17,3 +17,4 @@ public class Slotmaschine {
             return 0;
         }
 }
+//by Viet Hung Ly

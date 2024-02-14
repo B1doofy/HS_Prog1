@@ -30,3 +30,4 @@ public class LogarithmTwo {
         System.out.println("Anzahl der Summanden: "+count);
     }   
 }
+//by Viet Hung Ly

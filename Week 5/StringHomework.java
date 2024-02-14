@@ -1,4 +1,4 @@
-public class StringHomework {
+public class StringHomework {//by Viet Hung Ly
     public static void main(String[] args){
         //isPalindrome checks
         System.out.println("Palidrome checks");
